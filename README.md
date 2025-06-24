@@ -67,8 +67,6 @@ DB_NAME=news_sentiment
 ---
 
 ## 📊 Dashboard Preview
-
-> Auto-refreshing sentiment trends by date, source, and tone  
 ![alt text](image.png)
 
 ---
