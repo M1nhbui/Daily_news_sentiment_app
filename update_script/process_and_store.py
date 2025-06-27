@@ -16,7 +16,7 @@ from store_to_pg import store_record
 from datetime import datetime
 
 print("📥 Loading processed articles...")
-df = pd.read_csv("data/processed_articles.csv")
+df = pd.read_csv("data/processed_articles.csv", engine="python", on_bad_lines='warn')
 
 for _, row in df.iterrows():
     try:
