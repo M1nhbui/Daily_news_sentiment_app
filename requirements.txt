@@ -6,5 +6,5 @@ psycopg2-binary
 scikit-learn
 python-dotenv
 altair
-transformers
+transformers==4.40.0
 torch
